@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T13:42:36.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
