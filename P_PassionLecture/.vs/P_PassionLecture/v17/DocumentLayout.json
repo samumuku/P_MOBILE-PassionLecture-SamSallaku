@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\bookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:bookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\BookPage.xaml",
+              "RelativeDocumentMoniker": "BookPage.xaml",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\BookPage.xaml",
+              "RelativeToolTip": "BookPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:39:02.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "SearchPage.xaml",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\SearchPage.xaml",
+              "RelativeToolTip": "SearchPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:38:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "DetailPage.xaml",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\DetailPage.xaml",
+              "RelativeToolTip": "DetailPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:38:12.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:31:57.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T13:42:36.054Z",
               "EditorCaption": ""
