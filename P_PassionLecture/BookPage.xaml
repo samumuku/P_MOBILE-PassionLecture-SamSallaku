@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="P_PassionLecture.BookPage"
              Title="BookPage">
-    <VerticalStackLayout>
+    <StackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Bienvenue sur Passion Lecture !"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+        <StackLayout>
+            <Label Text="Livres" Margin="10,10,0,0" VerticalTextAlignment="Center"/>
+                    <BoxView BackgroundColor="Black" HeightRequest="1" WidthRequest="401" Margin="10,5,0,15"></BoxView>
+            <ScrollView Orientation="Vertical">
+                <HorizontalStackLayout>
+                    <BoxView BackgroundColor="Gray" HeightRequest="250" WidthRequest="180" Margin="15,5,10,0"></BoxView>
+                    <BoxView BackgroundColor="Gray" HeightRequest="250" WidthRequest="180" Margin="15,5,10,0"></BoxView>
+                </HorizontalStackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

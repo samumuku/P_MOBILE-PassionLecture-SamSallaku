@@ -5,17 +5,23 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:P_PassionLecture"
     Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarBackgroundColor="CadetBlue"
+    Shell.TabBarTitleColor="BlanchedAlmond"
+    Shell.TabBarUnselectedColor="DarkGray"
+    Shell.TabBarForegroundColor="BlanchedAlmond"
+    Shell.BackgroundColor="CadetBlue"
+    Shell.TitleColor="Azure"
     Title="P_PassionLecture">
 
     <TabBar>
-        <Tab>
-            <ShellContent Title="Home" ContentTemplate="BookPage"></ShellContent>
+        <Tab Title="Home"  Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:BookPage}"></ShellContent>
         </Tab>
-        <Tab>
-            <ShellContent Title="Search" ContentTemplate="SearchPage"></ShellContent>
+        <Tab Title="Search" Icon="search.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SearchPage}"></ShellContent>
         </Tab>
-        <Tab>
-            <ShellContent Title="Detail" ContentTemplate="DetailPage"></ShellContent>
+        <Tab Title="Detail" Icon="detail.png" >
+            <ShellContent ContentTemplate="{DataTemplate local:DetailPage}"></ShellContent>
         </Tab>
     </TabBar>
 

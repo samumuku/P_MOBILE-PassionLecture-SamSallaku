@@ -4,9 +4,9 @@
              x:Class="P_PassionLecture.SearchPage"
              Title="SearchPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <StackLayout>
+            <Label Text="Livres" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontFamily="Arial" FontAttributes="Bold" FontSize="Header"></Label>
+            <Entry Placeholder="Recherche un livre par le titre..."></Entry>
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
