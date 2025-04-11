@@ -15,7 +15,7 @@
 
     <TabBar>
         <Tab Title="Home"  Icon="home.png">
-            <ShellContent ContentTemplate="{DataTemplate local:BookPage}"></ShellContent>
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"></ShellContent>
         </Tab>
         <Tab Title="Search" Icon="search.png">
             <ShellContent ContentTemplate="{DataTemplate local:SearchPage}"></ShellContent>

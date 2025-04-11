@@ -1,24 +1,42 @@
-﻿namespace P_PassionLecture
+﻿using System.Diagnostics;
+using System.Text.Json;
+
+namespace P_PassionLecture
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        public static string baseAdress = "http://10.0.2.2:3000";
+        public static string booksUrl = $"{baseAdress}/api/books";
+
+        HttpClient _client;
 
         public MainPage()
         {
             InitializeComponent();
+
+            _client = new HttpClient();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        public async void getBooks()
         {
-            count++;
+            try
+            {
+                HttpResponseMessage response = await _client.GetAsync(booksUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    Debug.WriteLine(@"\tBooks : {0}", content);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(@"\tERROR {0}", ex.Message);
+            }
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            getBooks();
         }
     }
 

@@ -24,12 +24,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = P_PassionLecture.AppShell.
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/pr13xpj/Documents/GitHub/P_MOBILE-PassionLecture-SamSallaku/P_PassionLecture/BookPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = P_PassionLecture.BookPage.xaml
-build_metadata.AdditionalFiles.TargetPath = BookPage.xaml
-build_metadata.AdditionalFiles.RelativePath = BookPage.xaml
-
 [C:/Users/pr13xpj/Documents/GitHub/P_MOBILE-PassionLecture-SamSallaku/P_PassionLecture/DetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = P_PassionLecture.DetailPage.xaml

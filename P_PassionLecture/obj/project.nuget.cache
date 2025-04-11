@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XHsTr4AP0CCavRFZLSw0pI1BjaIkS13vZAdM1lAfPxeGx7gEv5v0Jbjomwd08JUamqrPPsekbSrN7V+9hsGdYw==",
+  "dgSpecHash": "eluhgL35bPBX0xxsxqfBAYjI8WauIvWZ3VEOlr4FRYtKgpAvG9tCnYgbE3DvI1OJ4ftNgrHzwBmXFFrverwWLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\P_PassionLecture.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pr13xpj\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\pr13xpj\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\pr13xpj\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\pr13xpj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
