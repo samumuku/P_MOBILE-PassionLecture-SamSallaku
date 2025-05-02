@@ -1,15 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="P_PassionLecture.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <StackLayout Padding="10">
 
-            <Button Text="Get Books" Clicked="Button_Clicked" BackgroundColor="CadetBlue" MaximumWidthRequest="120" MaximumHeightRequest="40" HorizontalOptions="Center" VerticalOptions="Center" />
-        </VerticalStackLayout>
-    </ScrollView>
+        <Label Text="Liste des livres" FontSize="30" Margin="5,0,0,15"></Label>
 
+        <Button Text="Load Books" Clicked="Button_Clicked" BackgroundColor="CadetBlue" TextColor="BlanchedAlmond"/>
+
+        <CollectionView x:Name="BooksCollection">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" Margin="5" BackgroundColor="#f0f0f0">
+                        <Label Text="{Binding titre}" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="{Binding resume}" />
+                        <Label Text="{Binding nbPages, StringFormat='Pages: {0}'}" />
+                        <Label Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
 </ContentPage>
