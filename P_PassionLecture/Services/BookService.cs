@@ -9,7 +9,7 @@ namespace P_PassionLecture.Services
         private readonly HttpClient _client;
         private readonly JsonSerializerOptions _serializerOptions;
 
-        private const string baseAdress = "http://10.0.2.2:3000";
+        private const string baseAdress = "https://7a09-178-197-223-235.ngrok-free.app";
         private const string booksUrl = $"{baseAdress}/api/books";
 
         public BookService()
@@ -22,39 +22,31 @@ namespace P_PassionLecture.Services
                 WriteIndented = true
             };
         }
-
-        public async Task<List<Book>> GetBooksAsync()
+        public async Task<List<Book>> GetBooksAsync(int page = 1, int pageSize = 10)
         {
-            var books = new List<Book>(); // créé une nouvelle liste de livres
+            var books = new List<Book>();
 
-            Uri uri = new Uri(booksUrl); // créé une uri pour stocker l'URL du backend (json)
+            string url = $"{booksUrl}?page={page}&limit={pageSize}";
 
             try
             {
-                //envoie une requête http GET
-                HttpResponseMessage response = await _client.GetAsync(uri);
+                HttpResponseMessage response = await _client.GetAsync(url);
 
-                // si la réponse est 200
                 if (response.IsSuccessStatusCode)
                 {
-                    //va lire le contenu en tant que string, qui sera donc le JSON
                     string content = await response.Content.ReadAsStringAsync();
-
-                    //retourne le JSON propre
                     var root = JsonDocument.Parse(content);
-                    //va chercher les premières valeurs du tableau JSON, et va chercher le "data"
                     var dataElement = root.RootElement.GetProperty("data");
-                    //deserializer la liste de livres, donc prend le JSON et le transforme en une liste de livres
                     books = JsonSerializer.Deserialize<List<Book>>(dataElement.GetRawText(), _serializerOptions);
-
                 }
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(@"\tERROR {0}", ex.Message);
+                Debug.WriteLine($"ERROR: {ex}");
             }
 
             return books;
         }
+
     }
 }

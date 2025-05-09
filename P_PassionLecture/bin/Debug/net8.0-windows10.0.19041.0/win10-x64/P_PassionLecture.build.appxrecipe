@@ -61,14 +61,29 @@
     <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\detail.scale-100.png">
-      <PackagePath>detail.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
+      <PackagePath>search.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
-      <PackagePath>search.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\detail.scale-100.png">
+      <PackagePath>detail.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -207,21 +222,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\P_PassionLecture.deps.json">
       <PackagePath>P_PassionLecture.deps.json</PackagePath>

@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute("BookDetailPage", typeof(P_PassionLecture.Views.BookDetailPage));
+
         }
     }
 }

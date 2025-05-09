@@ -20,9 +20,6 @@
         <Tab Title="Search" Icon="search.png">
             <ShellContent ContentTemplate="{DataTemplate local:SearchPage}"></ShellContent>
         </Tab>
-        <Tab Title="Detail" Icon="detail.png" >
-            <ShellContent ContentTemplate="{DataTemplate local:DetailPage}"></ShellContent>
-        </Tab>
     </TabBar>
 
 </Shell>

@@ -1,0 +1,14 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P_PassionLecture.Views.BookDetailPage"
+             Title="Détails du livre">
+
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="10">
+            <Label Text="{Binding titre}" FontSize="24" FontAttributes="Bold" />
+            <Label Text="{Binding resume}" FontSize="16" />
+            <Label Text="{Binding nbPages, StringFormat='Pages: {0}'}" />
+            <Label Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

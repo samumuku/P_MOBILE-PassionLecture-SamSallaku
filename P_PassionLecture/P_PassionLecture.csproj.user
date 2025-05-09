@@ -7,7 +7,7 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="DetailPage.xaml">
+    <MauiXaml Update="BookDetailPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="SearchPage.xaml">

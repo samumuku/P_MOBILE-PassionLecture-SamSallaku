@@ -8,17 +8,26 @@
 
         <Button Text="Load Books" Clicked="Button_Clicked" BackgroundColor="CadetBlue" TextColor="BlanchedAlmond"/>
 
-        <CollectionView x:Name="BooksCollection">
+        <CollectionView x:Name="BooksCollection"
+                RemainingItemsThreshold="2"
+                RemainingItemsThresholdReached="CollectionView_RemainingItemsThresholdReached"
+                SelectionChanged="BooksCollection_SelectionChanged"
+                ItemsLayout="Linear"
+                VerticalOptions="FillAndExpand"
+                SelectionMode="Single">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Padding="10" Margin="5" BackgroundColor="#f0f0f0">
-                        <Label Text="{Binding titre}" FontSize="20" FontAttributes="Bold" />
-                        <Label Text="{Binding resume}" />
-                        <Label Text="{Binding nbPages, StringFormat='Pages: {0}'}" />
-                        <Label Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
-                    </StackLayout>
+                    <Grid Padding="10" Margin="5" BackgroundColor="#f0f0f0"
+                          RowDefinitions="Auto,Auto,Auto,Auto">
+                        <Label Grid.Row="0" Text="{Binding titre}" FontSize="20" FontAttributes="Bold" />
+                        <Label Grid.Row="1" Text="{Binding resume}" />
+                        <Label Grid.Row="2" Text="{Binding nbPages, StringFormat='Pages: {0}'}" />
+                        <Label Grid.Row="3" Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+                    </Grid>
                 </DataTemplate>
+
             </CollectionView.ItemTemplate>
         </CollectionView>
+
     </StackLayout>
 </ContentPage>
