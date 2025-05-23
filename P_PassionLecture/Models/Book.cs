@@ -15,11 +15,13 @@ namespace P_PassionLecture.Models
         public string extrait { get; set; }
         public string resume { get; set; }
         public DateTime anneeEdition { get; set; }
-        public string _imageCouverture {  get; set; }
+        public string imageCouverture {  get; set; }
         public DateTime datePublication { get; set; }
         public int editeur_fk { get; set; }
         public int categorie_fk { get; set; }
         public int auteur_fk { get; set; }
+
+        public List<Tag> Tags { get; set; } = new();
 
     }
 }

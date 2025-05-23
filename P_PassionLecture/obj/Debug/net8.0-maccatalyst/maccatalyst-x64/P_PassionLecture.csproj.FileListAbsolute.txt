@@ -2,10 +2,18 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\P_PassionLecture.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\P_PassionLecture.pdb
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Data.Sqlite.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.EntityFrameworkCore.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyModel.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Debug.dll
@@ -17,6 +25,11 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.core.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -77,7 +90,6 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
-C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
@@ -186,8 +198,6 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.CodePages.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.Extensions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.dll
-C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
-C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.RegularExpressions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Channels.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Overlapped.dll
@@ -259,8 +269,8 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\detail.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\home.png
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\detail.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\search.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png

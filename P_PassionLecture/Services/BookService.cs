@@ -9,7 +9,7 @@ namespace P_PassionLecture.Services
         private readonly HttpClient _client;
         private readonly JsonSerializerOptions _serializerOptions;
 
-        private const string baseAdress = "https://7a09-178-197-223-235.ngrok-free.app";
+        private const string baseAdress = "https://8c8b-193-5-249-1.ngrok-free.app";
         private const string booksUrl = $"{baseAdress}/api/books";
 
         public BookService()

@@ -25,9 +25,9 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\mauifont.stamp
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable\detail.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable\search.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
-C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable\detail.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -154,10 +154,18 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Jsr305Binding.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\ko\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.CSharp.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Data.Sqlite.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyModel.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Debug.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.dll
@@ -197,6 +205,7 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\ro\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\ru\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\sk\Microsoft.Maui.Controls.resources.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.core.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\sv\Microsoft.Maui.Controls.resources.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.AppContext.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.Buffers.dll
@@ -248,6 +257,7 @@ C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLe
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.Watcher.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.IsolatedStorage.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.MemoryMappedFiles.dll
+C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.Pipelines.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.AccessControl.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.dll
 C:\Users\pr13xpj\Documents\GitHub\P_MOBILE-PassionLecture-SamSallaku\P_PassionLecture\obj\Debug\net8.0-android\android\assets\System.IO.UnmanagedMemoryStream.dll

@@ -5,10 +5,24 @@
 
     <ScrollView Padding="20">
         <VerticalStackLayout Spacing="10">
-            <Label Text="{Binding titre}" FontSize="24" FontAttributes="Bold" />
-            <Label Text="{Binding resume}" FontSize="16" />
-            <Label Text="{Binding nbPages, StringFormat='Pages: {0}'}" />
-            <Label Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+            <Label Text="{Binding Book.titre}" FontSize="24" FontAttributes="Bold" />
+            <Label Text="{Binding Book.resume}" FontSize="16" />
+            <Label Text="{Binding Book.nbPages, StringFormat='Pages: {0}'}" />
+            <Label Text="{Binding Book.anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+
+            <Entry Placeholder="Enter tag" Text="{Binding NewTag}" />
+            <Button Text="Add Tag" Command="{Binding AddTagCommand}" />
+
+            <Label Text="Tags:" FontAttributes="Bold" />
+            <CollectionView ItemsSource="{Binding Tags}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5" Margin="2" BackgroundColor="LightGray" CornerRadius="10">
+                            <Label Text="{Binding Name}" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

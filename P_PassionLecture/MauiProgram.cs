@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-
 namespace P_PassionLecture
 {
     public static class MauiProgram
