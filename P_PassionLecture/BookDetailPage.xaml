@@ -1,28 +1,28 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="P_PassionLecture.Views.BookDetailPage"
-             Title="Détails du livre">
+             Title="{Binding Book.titre}">
 
-    <ScrollView Padding="20">
-        <VerticalStackLayout Spacing="10">
-            <Label Text="{Binding Book.titre}" FontSize="24" FontAttributes="Bold" />
-            <Label Text="{Binding Book.resume}" FontSize="16" />
-            <Label Text="{Binding Book.nbPages, StringFormat='Pages: {0}'}" />
-            <Label Text="{Binding Book.anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+    <StackLayout Padding="20" Spacing="15">
 
-            <Entry Placeholder="Enter tag" Text="{Binding NewTag}" />
-            <Button Text="Add Tag" Command="{Binding AddTagCommand}" />
+        <Label Text="{Binding Book.resume}" FontSize="16" />
+        <Label Text="{Binding Book.nbPages, StringFormat='Pages: {0}'}" />
+        <Label Text="{Binding Book.anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
+        <Label Text="Tags:" FontSize="20" FontAttributes="Bold" />
 
-            <Label Text="Tags:" FontAttributes="Bold" />
-            <CollectionView ItemsSource="{Binding Tags}">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame Padding="5" Margin="2" BackgroundColor="LightGray" CornerRadius="10">
-                            <Label Text="{Binding Name}" />
-                        </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </VerticalStackLayout>
-    </ScrollView>
+        <CollectionView ItemsSource="{Binding Tags}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="5" Margin="2" BackgroundColor="#e0e0e0" CornerRadius="10">
+                        <Label Text="{Binding Name}" />
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Entry Text="{Binding NewTag}" Placeholder="Add new tag..." />
+
+        <Button Text="Add Tag" Command="{Binding AddTagCommand}" BackgroundColor="LightSeaGreen" TextColor="White" />
+
+    </StackLayout>
 </ContentPage>

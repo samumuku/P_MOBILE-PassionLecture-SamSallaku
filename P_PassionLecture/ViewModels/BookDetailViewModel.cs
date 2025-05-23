@@ -1,83 +1,39 @@
-﻿using System.Collections.ObjectModel;
-using System.Windows.Input;
-using Microsoft.Maui.Controls;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using P_PassionLecture.Models;
 using P_PassionLecture.Services;
-using Microsoft.EntityFrameworkCore;
-using System;
+using System.Collections.ObjectModel;
 
-namespace P_PassionLecture.ViewModels
+namespace P_PassionLecture.ViewModels;
+
+public partial class BookDetailViewModel : ObservableObject
 {
-    public class BookDetailViewModel : BindableObject
+    private readonly TagService _tagService = new();
+
+    public BookDetailViewModel(Book book)
     {
-        public Book Book { get; }
-        public ObservableCollection<Tag> Tags { get; } = new();
+        Book = book;
+        Tags = new ObservableCollection<Tag>(_tagService.GetTagsForBook(Book.livre_id));
+    }
 
-        private string _newTag;
-        public string NewTag
-        {
-            get => _newTag;
-            set
-            {
-                _newTag = value;
-                OnPropertyChanged();
-            }
-        }
+    public Book Book { get; }
 
-        public ICommand AddTagCommand { get; }
+    public ObservableCollection<Tag> Tags { get; }
 
-        private readonly MysqliteContext _db;
+    [ObservableProperty]
+    private string newTag;
 
-        public BookDetailViewModel(Book book)
-        {
-            Book = book;
-            _db = new MysqliteContext(Path.Combine(FileSystem.AppDataDirectory, "books.db"));
+    [RelayCommand]
+    private void AddTag()
+    {
+        if (string.IsNullOrWhiteSpace(NewTag)) return;
 
-            AddTagCommand = new Command(async () => await AddTagAsync());
-            LoadTags();
-        }
+        var tag = _tagService.FindTagByName(NewTag) ?? _tagService.CreateTag(NewTag);
+        _tagService.AssignTagToBook(Book.livre_id, tag.Id);
 
-        private async void LoadTags()
-        {
-            var tagIds = await _db.BookTags
-                .Where(bt => bt.BookId == Book.livre_id)
-                .Select(bt => bt.TagId)
-                .ToListAsync();
+        if (!Tags.Any(t => t.Id == tag.Id))
+            Tags.Add(tag);
 
-            var tags = await _db.Tags
-                .Where(t => tagIds.Contains(t.Id))
-                .ToListAsync();
-
-            Tags.Clear();
-            foreach (var tag in tags)
-                Tags.Add(tag);
-        }
-
-        private async Task AddTagAsync()
-        {
-            if (string.IsNullOrWhiteSpace(NewTag)) return;
-
-            // Find or create tag
-            var tag = await _db.Tags.FirstOrDefaultAsync(t => t.Name == NewTag);
-            if (tag == null)
-            {
-                tag = new Tag { Name = NewTag };
-                _db.Tags.Add(tag);
-                await _db.SaveChangesAsync();
-            }
-
-            // Check if link already exists
-            bool alreadyLinked = await _db.BookTags.AnyAsync(bt =>
-                bt.BookId == Book.livre_id && bt.TagId == tag.Id);
-
-            if (!alreadyLinked)
-            {
-                _db.BookTags.Add(new BookTag { BookId = Book.livre_id, TagId = tag.Id });
-                await _db.SaveChangesAsync();
-                Tags.Add(tag);
-            }
-
-            NewTag = string.Empty;
-        }
+        NewTag = string.Empty;
     }
 }

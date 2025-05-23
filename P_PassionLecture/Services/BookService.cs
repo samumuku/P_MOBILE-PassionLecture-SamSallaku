@@ -9,7 +9,7 @@ namespace P_PassionLecture.Services
         private readonly HttpClient _client;
         private readonly JsonSerializerOptions _serializerOptions;
 
-        private const string baseAdress = "https://8c8b-193-5-249-1.ngrok-free.app";
+        private const string baseAdress = "http://10.0.2.2:3000";
         private const string booksUrl = $"{baseAdress}/api/books";
 
         public BookService()
@@ -25,6 +25,7 @@ namespace P_PassionLecture.Services
         public async Task<List<Book>> GetBooksAsync(int page = 1, int pageSize = 10)
         {
             var books = new List<Book>();
+            Debug.WriteLine($"Fetching books: {booksUrl}?page={page}&limit={pageSize}");
 
             string url = $"{booksUrl}?page={page}&limit={pageSize}";
 
@@ -44,6 +45,7 @@ namespace P_PassionLecture.Services
             {
                 Debug.WriteLine($"ERROR: {ex}");
             }
+            Debug.WriteLine($"Retrieved {books.Count} books");
 
             return books;
         }

@@ -1,2 +1,2 @@
-AdbTarget=-s RFCX81H6KWH
+AdbTarget=-s emulator-5554
 AdbOptions=

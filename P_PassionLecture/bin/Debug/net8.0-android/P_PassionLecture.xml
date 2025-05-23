@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>P_PassionLecture</name>
+    </assembly>
+    <members>
+        <member name="T:P_PassionLecture.ViewModels.BookDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.BookDetailViewModel.NewTag">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.BookDetailViewModel.newTag"/>
+        </member>
+        <member name="F:P_PassionLecture.ViewModels.BookDetailViewModel.addTagCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.BookDetailViewModel.AddTagCommand"/>.</summary>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.BookDetailViewModel.AddTagCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.BookDetailViewModel.AddTag"/>.</summary>
+        </member>
+        <member name="T:P_PassionLecture.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.MainPageViewModel.DebugText">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.MainPageViewModel.debugText"/>
+        </member>
+        <member name="F:P_PassionLecture.ViewModels.MainPageViewModel.loadBooksCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.MainPageViewModel.LoadBooksCommand"/>.</summary>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.MainPageViewModel.LoadBooksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.MainPageViewModel.LoadBooksAsync"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewTag">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewTag" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DebugText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DebugText" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewTag">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewTag" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DebugText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DebugText" generated properties.</summary>
+        </member>
+    </members>
+</doc>

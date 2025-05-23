@@ -1,20 +1,29 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:P_PassionLecture.ViewModels"
              x:Class="P_PassionLecture.MainPage">
 
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel />
+    </ContentPage.BindingContext>
+
     <StackLayout Padding="10">
+        <Label Text="Liste des livres" FontSize="30" Margin="5,0,0,15" />
 
-        <Label Text="Liste des livres" FontSize="30" Margin="5,0,0,15"></Label>
+        <Button Text="Load Books"
+                Command="{Binding LoadBooksCommand}"
+                BackgroundColor="CadetBlue"
+                TextColor="BlanchedAlmond"/>
 
-        <Button Text="Load Books" Clicked="Button_Clicked" BackgroundColor="CadetBlue" TextColor="BlanchedAlmond"/>
-
-        <CollectionView x:Name="BooksCollection"
+        <CollectionView
+                ItemsSource="{Binding VisibleBooks}"
                 RemainingItemsThreshold="2"
                 RemainingItemsThresholdReached="CollectionView_RemainingItemsThresholdReached"
                 SelectionChanged="BooksCollection_SelectionChanged"
                 ItemsLayout="Linear"
                 VerticalOptions="FillAndExpand"
                 SelectionMode="Single">
+
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="10" Margin="5" BackgroundColor="#f0f0f0"
@@ -25,7 +34,6 @@
                         <Label Grid.Row="3" Text="{Binding anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
                     </Grid>
                 </DataTemplate>
-
             </CollectionView.ItemTemplate>
         </CollectionView>
 

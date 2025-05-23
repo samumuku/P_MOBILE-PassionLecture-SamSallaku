@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\services\\mysqlitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:services\\mysqlitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +27,52 @@
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|c:\\users\\pr13xpj\\documents\\github\\p_mobile-passionlecture-samsallaku\\p_passionlecture\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F920D0C-0015-419A-9CBE-4CD6A9CA3F7F}|P_PassionLecture.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,8 +82,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:26:51.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\TagService.cs",
+              "RelativeDocumentMoniker": "Services\\TagService.cs",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\TagService.cs",
+              "RelativeToolTip": "Services\\TagService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:47:18.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAzwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:33:36.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\SearchPage.xaml.cs",
+              "RelativeToolTip": "SearchPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:32:47.195Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -84,27 +144,14 @@
               "RelativeDocumentMoniker": "ViewModels\\BookDetailViewModel.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\ViewModels\\BookDetailViewModel.cs",
               "RelativeToolTip": "ViewModels\\BookDetailViewModel.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwDwAAABQAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T13:25:00.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MysqliteContext.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\MysqliteContext.cs",
-              "RelativeDocumentMoniker": "Services\\MysqliteContext.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\MysqliteContext.cs",
-              "RelativeToolTip": "Services\\MysqliteContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T13:17:53.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "BookTag.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Models\\BookTag.cs",
               "RelativeDocumentMoniker": "Models\\BookTag.cs",
@@ -117,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Models\\Tag.cs",
@@ -130,33 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBsAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T12:27:12.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:07:10.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -169,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -182,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "BookDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\BookDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "BookDetailPage.xaml.cs",
@@ -195,59 +229,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "BookDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\BookDetailPage.xaml",
               "RelativeDocumentMoniker": "BookDetailPage.xaml",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\BookDetailPage.xaml",
               "RelativeToolTip": "BookDetailPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-09T13:30:02.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Services\\BookService.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\Services\\BookService.cs",
               "RelativeToolTip": "Services\\BookService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAkwDQAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T13:14:09.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAYwEYAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T12:44:26.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-11T12:44:16.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -260,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\SearchPage.xaml",
               "RelativeDocumentMoniker": "SearchPage.xaml",
@@ -273,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\P_MOBILE-PassionLecture-SamSallaku\\P_PassionLecture\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
