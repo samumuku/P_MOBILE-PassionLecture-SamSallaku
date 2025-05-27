@@ -9,6 +9,12 @@
         <Label Text="{Binding Book.nbPages, StringFormat='Pages: {0}'}" />
         <Label Text="{Binding Book.anneeEdition, StringFormat='Publié: {0:yyyy}'}" />
         <Label Text="Tags:" FontSize="20" FontAttributes="Bold" />
+        <Button Text="Read Book"
+        Command="{Binding ReadBookCommand}"
+        BackgroundColor="DarkSlateBlue"
+        TextColor="White"
+        Margin="0,10,0,0" />
+
 
         <CollectionView ItemsSource="{Binding Tags}">
             <CollectionView.ItemTemplate>

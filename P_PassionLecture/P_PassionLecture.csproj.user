@@ -5,6 +5,7 @@
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
     <ActiveDebugProfile>Pixel_7a_API_34 (Android 14.0 - API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <SelectedDevice>Pixel_7a_API_34</SelectedDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="BookDetailPage.xaml">

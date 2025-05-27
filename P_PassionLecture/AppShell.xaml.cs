@@ -6,6 +6,8 @@
         {
             InitializeComponent();
             Routing.RegisterRoute("BookDetailPage", typeof(P_PassionLecture.Views.BookDetailPage));
+            Routing.RegisterRoute("epubreader", typeof(EpubReaderPage));
+
 
         }
     }
