@@ -27,12 +27,23 @@ public partial class EpubReaderPage : ContentPage
             var book = new Book
             {
                 titre = BookTitle ?? "Untitled",
-                livre_id = 0 // You can leave this 0 if not needed for now
+                livre_id = 0
             };
 
             _viewModel = new EpubReaderViewModel(book, FilePath);
             BindingContext = _viewModel;
+
+            _viewModel.PropertyChanged += (s, e) =>
+            {
+                if (e.PropertyName == nameof(_viewModel.PageText))
+                {
+                    // Wrap the HTML content inside a simple HTML page
+                    var html = $"<html><body style='padding:10px;font-size:16px;font-family:sans-serif;'>{_viewModel.PageText}</body></html>";
+                    EpubWebView.Source = new HtmlWebViewSource { Html = html };
+                }
+            };
         }
     }
 }
+
 

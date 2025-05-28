@@ -10,7 +10,7 @@
     <StackLayout Padding="10">
         <Label Text="Liste des livres" FontSize="30" Margin="5,0,0,15" />
 
-        <Button Text="Load Books"
+        <Button Text="Importer les livres"
                 Command="{Binding LoadBooksCommand}"
                 BackgroundColor="CadetBlue"
                 TextColor="BlanchedAlmond"/>

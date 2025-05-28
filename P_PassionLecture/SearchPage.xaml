@@ -1,12 +1,68 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:P_PassionLecture.ViewModels"
              x:Class="P_PassionLecture.SearchPage"
-             Title="SearchPage">
-    <VerticalStackLayout>
-        <StackLayout>
-            <Label Text="Livres" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontFamily="Arial" FontAttributes="Bold" FontSize="Header"></Label>
-            <Entry Placeholder="Recherche un livre par le titre..."></Entry>
-        </StackLayout>
+             x:Name="SearchPageRoot"
+             Title="Rechercher des livres">
+
+    <ContentPage.BindingContext>
+        <vm:SearchViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <Label Text="Recherche par titre" />
+        <Entry Text="{Binding TitleKeyword}" Placeholder="Entrer un mot-clé pour le titre" />
+
+        <Label Text="Filtrer par tag" />
+        <Picker ItemsSource="{Binding Tags}"
+                SelectedItem="{Binding SelectedTag}"
+                ItemDisplayBinding="{Binding Name}"
+                Title="Choisir un tag" />
+
+        <HorizontalStackLayout Spacing="5" IsVisible="{Binding SelectedTag}">
+            <Label Text="Tag sélectionné :" VerticalOptions="Center" />
+            <Label Text="{Binding SelectedTag.Name}" VerticalOptions="Center" FontAttributes="Bold" />
+            <Button Text="❌"
+                    Command="{Binding ClearTagFilterCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    FontSize="16"
+                    Padding="0"/>
+        </HorizontalStackLayout>
+
+        <Label Text="Filtrer par date de publication" />
+        <HorizontalStackLayout Spacing="5">
+            <DatePicker Date="{Binding FromDate}" />
+            <DatePicker Date="{Binding ToDate}" />
+        </HorizontalStackLayout>
+
+        <Button Text="Rechercher"
+                Command="{Binding FilterBooksCommand}"
+                BackgroundColor="DarkSlateBlue"
+                TextColor="White" />
+
+        <CollectionView ItemsSource="{Binding FilteredBooks}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Padding="10" Spacing="6">
+                        <Label Text="{Binding titre}" FontAttributes="Bold" FontSize="16" />
+                        <Label Text="{Binding resume}" FontSize="14" LineBreakMode="WordWrap" />
+                        <Label Text="{Binding datePublication, StringFormat='Publié le : {0:yyyy-MM-dd}'}" FontSize="12" TextColor="Gray" />
+
+                        <CollectionView ItemsSource="{Binding Tags}" ItemsLayout="HorizontalList">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame BackgroundColor="#ddd" Padding="4" Margin="2" CornerRadius="8">
+                                        <Label Text="{Binding Name}" FontSize="12" />
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
     </VerticalStackLayout>
 </ContentPage>

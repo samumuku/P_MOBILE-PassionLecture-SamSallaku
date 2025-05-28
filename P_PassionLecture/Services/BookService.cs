@@ -8,6 +8,7 @@ namespace P_PassionLecture.Services
     {
         private readonly HttpClient _client;
         private readonly JsonSerializerOptions _serializerOptions;
+        private readonly TagService _tagService;  // Add TagService
 
         private const string baseAdress = "http://10.0.2.2:3000";
         private const string booksUrl = $"{baseAdress}/api/books";
@@ -17,11 +18,12 @@ namespace P_PassionLecture.Services
             _client = new HttpClient();
             _serializerOptions = new JsonSerializerOptions
             {
-                //va relier les propriétes du modèle en CamelCase avec celui du JSON
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                 WriteIndented = true
             };
+            _tagService = new TagService();  // Initialize TagService
         }
+
         public async Task<List<Book>> GetBooksAsync(int page = 1, int pageSize = 10)
         {
             var books = new List<Book>();
@@ -39,6 +41,10 @@ namespace P_PassionLecture.Services
                     var root = JsonDocument.Parse(content);
                     var dataElement = root.RootElement.GetProperty("data");
                     books = JsonSerializer.Deserialize<List<Book>>(dataElement.GetRawText(), _serializerOptions);
+                    foreach (var book in books)
+                    {
+                        book.Tags = _tagService.GetTagsForBook(book.livre_id);
+                    }
                 }
             }
             catch (Exception ex)
@@ -49,6 +55,5 @@ namespace P_PassionLecture.Services
 
             return books;
         }
-
     }
 }

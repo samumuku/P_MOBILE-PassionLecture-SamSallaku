@@ -63,6 +63,41 @@
         <member name="P:P_PassionLecture.ViewModels.MainPageViewModel.LoadBooksCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.MainPageViewModel.LoadBooksAsync"/>.</summary>
         </member>
+        <member name="T:P_PassionLecture.ViewModels.SearchViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.TitleKeyword">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.titleKeyword"/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.SelectedTag">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.selectedTag"/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.FromDate">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.fromDate"/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.ToDate">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.toDate"/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.Tags">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.tags"/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.FilteredBooks">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.SearchViewModel.filteredBooks"/>
+        </member>
+        <member name="F:P_PassionLecture.ViewModels.SearchViewModel.filterBooksCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.SearchViewModel.FilterBooksCommand"/>.</summary>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.FilterBooksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.SearchViewModel.FilterBooks"/>.</summary>
+        </member>
+        <member name="F:P_PassionLecture.ViewModels.SearchViewModel.clearTagFilterCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.SearchViewModel.ClearTagFilterCommand"/>.</summary>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.SearchViewModel.ClearTagFilterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.SearchViewModel.ClearTagFilter"/>.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
@@ -84,6 +119,24 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DebugText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DebugText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TitleKeyword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TitleKeyword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedTag">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedTag" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FromDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FromDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ToDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ToDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tags">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tags" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FilteredBooks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FilteredBooks" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -104,6 +157,24 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DebugText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DebugText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TitleKeyword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TitleKeyword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedTag">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedTag" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FromDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FromDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ToDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ToDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tags">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tags" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FilteredBooks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FilteredBooks" generated properties.</summary>
         </member>
     </members>
 </doc>

@@ -41,9 +41,9 @@ public partial class BookDetailViewModel : ObservableObject
     {
         try
         {
-            // Fetch BLOB from your API
+            // Fetch BLOB from API
             var client = new HttpClient();
-            var url = $"http://10.0.2.2:3000/api/books/{Book.livre_id}/epub"; // Adjust this to match your API
+            var url = $"http://10.0.2.2:3000/api/books/{Book.livre_id}/epub"; // API request
             var response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();
 

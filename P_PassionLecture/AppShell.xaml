@@ -14,10 +14,10 @@
     Title="P_PassionLecture">
 
     <TabBar>
-        <Tab Title="Home"  Icon="home.png">
+        <Tab Title="Accueil"  Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}"></ShellContent>
         </Tab>
-        <Tab Title="Search" Icon="search.png">
+        <Tab Title="Recherche" Icon="search.png">
             <ShellContent ContentTemplate="{DataTemplate local:SearchPage}"></ShellContent>
         </Tab>
     </TabBar>
