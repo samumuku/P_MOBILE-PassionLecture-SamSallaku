@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P_PassionLecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2fe7ba44fd929330c196842e3e725fd601c2f65c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+08caf6bcf14dfc2d9aba192db4f941137ed0d2a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("P_PassionLecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P_PassionLecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
