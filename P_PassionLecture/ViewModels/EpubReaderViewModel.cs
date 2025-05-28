@@ -33,11 +33,14 @@ namespace P_PassionLecture.ViewModels
 
         [ObservableProperty]
         private string author = string.Empty;
-        public EpubReaderViewModel(Book book)
+
+        private string _filePath;
+        public EpubReaderViewModel(Book book, string filePath)
         {
             this.book = book;
-            Title = this.book.titre;
-            // Author = this.book.ecrivain_prenom + " " + this.book.ecrivain_nom;
+            Title = book.titre;
+
+            _filePath = filePath;
             ReadEpub();
         }
 
@@ -74,73 +77,67 @@ namespace P_PassionLecture.ViewModels
         {
             try
             {
-                //Call API
-                var response = await client.GetAsync("http://10.0.2.2:3000/api/livres/lecture/" + this.book.livre_id); //book.livre_id
+                // Create or clean temp directory
+                string tempDir = Path.Combine(FileSystem.AppDataDirectory, "temp");
 
-                //Create temp directory
-                Directory.CreateDirectory(AppDomain.CurrentDomain.BaseDirectory + "/temp");
+                if (Directory.Exists(tempDir))
+                    Directory.Delete(tempDir, true);
 
-                //Clear temp directory
-                System.IO.DirectoryInfo di = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory + "/temp");
-                foreach (System.IO.FileInfo file in di.GetFiles())
+                Directory.CreateDirectory(tempDir);
+
+                // Extract EPUB ZIP to temp folder
+                using (FileStream zip = new FileStream(_filePath, FileMode.Open, FileAccess.Read))
                 {
-                    file.Delete();
-                }
-                foreach (DirectoryInfo dir in di.GetDirectories())
-                {
-                    dir.Delete(true);
-                }
-
-                if (response.IsSuccessStatusCode)
-                {
-                    currentPage++;
-                    var content = response.Content;
-                    //Open epub ZIP
-                    FileStream zip = new FileStream(AppDomain.CurrentDomain.BaseDirectory + "/epub.epub", FileMode.Open);
-                    ZipArchive archive = new ZipArchive(zip);
-                    archive.ExtractToDirectory(AppDomain.CurrentDomain.BaseDirectory + "/temp"); //Plus de flexibilité
-
-                    XmlDocument doc = new XmlDocument();
-                    doc.Load(AppDomain.CurrentDomain.BaseDirectory + "/temp/OEBPS/toc.ncx");
-
-                    Dictionary<int, string> pages = new Dictionary<int, string>();
-
-                    XmlElement root = doc.DocumentElement;
-
-                    foreach (XmlElement element in root.ChildNodes)
+                    using (ZipArchive archive = new ZipArchive(zip))
                     {
-                        // Access and process each XML element here
-                        if (element.Name == "navMap")
+                        archive.ExtractToDirectory(tempDir);
+                    }
+                }
+
+                // Parse the EPUB TOC (assuming EPUB2 .ncx format)
+                string tocPath = Path.Combine(tempDir, "OEBPS", "toc.ncx");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(tocPath);
+
+                Dictionary<int, string> pages = new();
+
+                XmlElement root = doc.DocumentElement;
+
+                foreach (XmlElement element in root.ChildNodes)
+                {
+                    if (element.Name == "navMap")
+                    {
+                        foreach (XmlNode nav in element.ChildNodes)
                         {
-                            foreach (XmlNode nav in element.ChildNodes)
+                            int playOrder = Convert.ToInt32(nav.Attributes["playOrder"].Value);
+                            foreach (XmlNode node in nav.ChildNodes)
                             {
-                                int playOrder = Convert.ToInt32(nav.Attributes["playOrder"].Value);
-                                foreach (XmlNode node in nav.ChildNodes)
+                                if (node.Name == "content")
                                 {
-                                    if (node.Name == "content")
-                                    {
-                                        string path = node.Attributes["src"].Value;
-                                        pages.Add(playOrder, NormalizePath(path));
-                                    }
+                                    string path = node.Attributes["src"].Value;
+                                    pages[playOrder] = NormalizePath(path);
                                 }
                             }
                         }
                     }
+                }
 
-                    var contentString = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "/temp/OEBPS/" + pages[currentPage]).ReadToEnd();
-                    PageText = contentString;
-
+                if (pages.TryGetValue(currentPage, out var pagePath))
+                {
+                    string fullPagePath = Path.Combine(tempDir, "OEBPS", pagePath);
+                    PageText = await File.ReadAllTextAsync(fullPagePath);
                 }
                 else
                 {
-                    Trace.WriteLine("😀" + response.StatusCode + " - " + response.Headers + " - " + response.Content);
-                    throw new Exception($"Bad status : {response.Headers},{response.Content}");
+                    PageText = "Page not found.";
                 }
             }
             catch (Exception ex)
             {
                 Trace.WriteLine("😭 " + ex.Message + " 😿 " + ex.StackTrace);
+                PageText = "Error loading EPUB.";
             }
         }
+
     }
 }

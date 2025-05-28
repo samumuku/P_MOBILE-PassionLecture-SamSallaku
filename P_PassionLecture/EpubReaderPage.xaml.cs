@@ -18,33 +18,21 @@ public partial class EpubReaderPage : ContentPage
         InitializeComponent();
     }
 
-    protected override async void OnAppearing()
+    protected override void OnAppearing()
     {
         base.OnAppearing();
 
-        if (!string.IsNullOrWhiteSpace(FilePath) && !string.IsNullOrWhiteSpace(BookTitle))
+        if (!string.IsNullOrWhiteSpace(FilePath))
         {
-            try
+            var book = new Book
             {
-                // Create a dummy Book object with minimal required data
-                var book = new Book
-                {
-                    livre_id = int.Parse(Path.GetFileNameWithoutExtension(FilePath)),
-                    titre = BookTitle
-                    // You can set more properties if required
-                };
+                titre = BookTitle ?? "Untitled",
+                livre_id = 0 // You can leave this 0 if not needed for now
+            };
 
-                _viewModel = new EpubReaderViewModel(book);
-                BindingContext = _viewModel;
-
-                // If you had a method like LoadBookAsync, you could call it here.
-                // But since ReadEpub is called in the constructor, this may not be necessary.
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine($"Failed to load EPUB: {ex.Message}");
-                // Optional: Display an alert
-            }
+            _viewModel = new EpubReaderViewModel(book, FilePath);
+            BindingContext = _viewModel;
         }
     }
 }
+

@@ -27,18 +27,28 @@
         <member name="T:P_PassionLecture.ViewModels.EpubReaderViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.PageText">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.EpubReaderViewModel.pageText"/>
         </member>
         <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.Title">
             <inheritdoc cref="F:P_PassionLecture.ViewModels.EpubReaderViewModel.title"/>
         </member>
-        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.Content">
-            <inheritdoc cref="F:P_PassionLecture.ViewModels.EpubReaderViewModel.content"/>
+        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.Author">
+            <inheritdoc cref="F:P_PassionLecture.ViewModels.EpubReaderViewModel.author"/>
         </member>
-        <member name="F:P_PassionLecture.ViewModels.EpubReaderViewModel.readBookCommand">
-            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.EpubReaderViewModel.ReadBookCommand"/>.</summary>
+        <member name="F:P_PassionLecture.ViewModels.EpubReaderViewModel.gotoNextPageCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoNextPageCommand"/>.</summary>
         </member>
-        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.ReadBookCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.EpubReaderViewModel.ReadBookAsync"/>.</summary>
+        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoNextPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoNextPage"/>.</summary>
+        </member>
+        <member name="F:P_PassionLecture.ViewModels.EpubReaderViewModel.gotoPrevPageCommand">
+            <summary>The backing field for <see cref="P:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoPrevPageCommand"/>.</summary>
+        </member>
+        <member name="P:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoPrevPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_PassionLecture.ViewModels.EpubReaderViewModel.GotoPrevPage"/>.</summary>
         </member>
         <member name="T:P_PassionLecture.ViewModels.MainPageViewModel">
             <inheritdoc/>
@@ -62,11 +72,14 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewTag">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewTag" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PageText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PageText" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Content">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Content" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Author">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Author" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DebugText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DebugText" generated properties.</summary>
@@ -80,11 +93,14 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewTag">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewTag" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PageText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PageText" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Content">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Content" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Author">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Author" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DebugText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DebugText" generated properties.</summary>

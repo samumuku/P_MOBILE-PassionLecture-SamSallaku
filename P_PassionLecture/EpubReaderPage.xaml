@@ -3,6 +3,7 @@
              x:Class="P_PassionLecture.EpubReaderPage"
              Title="{Binding Title}">
     <ScrollView>
-        <Label Text="{Binding Content}" FontSize="16" Padding="20" LineBreakMode="WordWrap" />
+        <Label Text="{Binding PageText}" FontSize="16" Padding="20" LineBreakMode="WordWrap" />
+
     </ScrollView>
 </ContentPage>
